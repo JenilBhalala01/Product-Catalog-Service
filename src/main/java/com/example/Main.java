@@ -13,7 +13,7 @@ public class Main {
 
         ProductService service = new ProductService();
 
-        // products above price 200
+        // products above price 300
         System.out.println("\n=== Products above 300 ===");
         List<Product> expensive = service.getProductsAbovePrice(300);
         expensive.forEach(p -> System.out.println(p.getName() + " - " + p.getPrice()));
