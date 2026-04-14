@@ -7,7 +7,7 @@ import java.util.List;
 import java.util.Optional;
 
 public class Main {
-    static void main() {
+    public static void main(String[] args) {
         Product product = new Product(1L, "Laptop", 999.99);
         System.out.println("Product name: " + product.getName());
 
